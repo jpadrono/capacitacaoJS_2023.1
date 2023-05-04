@@ -15,7 +15,7 @@ let animal = {
     correr: function(){
         return 'faz alguma coisa'
     }
-},
+};
 //function
 let fun = function(){
     return 'google'

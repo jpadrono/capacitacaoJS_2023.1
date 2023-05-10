@@ -47,4 +47,3 @@ for(let key in meuObjeto){
     console.log(meuObjeto[key])
 }
 
-

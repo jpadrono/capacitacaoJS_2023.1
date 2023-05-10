@@ -40,7 +40,7 @@ let arrMaior = ['outro elemento',...arr, 'novo elemento'];
 // - destructuring assignment
 //forma de atribuir valores baseado na posição do elemento na array
 let [x, y] = arr;//x == arr[0], y == arr[1]
-let [ , , z] = arr;//z == arr[3]
+let [ , , z] = arr;//z == arr[2]
 //com o destructuring assignment é possível trocar o valor de duas variáveis da
 // seguinte forma:
 let a = 8, b = 6;

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exemplo de Seletores</title>
+<!-- até agora trabalhamos com javascript separado do html e css, então como 
+fazemos para trabalhar com eles juntos? Simples, podemos escrever o nosso código
+js usando a tag <script> código JavaScript </script> ou importar um arquivo js 
+com o atributo src, nesse caso estou importado o arquivo deferJS.js-->
+        <script src="deferJS.js" defer></script>   
+<!-- o atributo defer, atribuído a tag script, faz com que o código js seja bai-
+xado em paralelo com o esqueleto html e seja executado ao final da análise da 
+página. perceba que se não for passado esse atributo, nesse caso, o js não con-
+seguirá encontrar meus elementos html, pois ainda não teriam sido carregados. 
+O uso do atributo defer é mais recomendado, mas tbm poderia-se passar a tag 
+script ao final do body [1]-->
+    </head>
+    <body>
+        <h1 id="titulo">Exemplo de Seletores</h1>
+
+        <p class="paragrafo">Parágrafo 1</p>
+        <p class="paragrafo">Parágrafo 2</p>
+        <p class="paragrafo">Parágrafo 3</p>
+
+        <div id="conteudo">
+            <p>Conteúdo do div</p>
+        </div>
+    
+        <!--[1]A TAG SCRIPT PODERIA VIR AQUI SEM PRECISAR DO ATRIBUTO DEFER-->
+    </body>
+</html>
